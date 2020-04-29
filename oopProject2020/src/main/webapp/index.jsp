@@ -9,11 +9,16 @@
 </head>
 
 <body>
-<h2>Home</h2>
+
+
+
+<div class="row mb-3">
+
+<div class="col-sm-6"></div>
 
 <div class="col-sm-6" class="jumbotron">
 <div class="jumbotron">
-<h5 class="display-4">Log in</h5>
+<h5>Log in</h5>
 <form action="" method="Post" >
   <div class="form-group row">
     <label for="staticEmail" class="col-sm-4 col-form-label">Email</label>
@@ -30,16 +35,19 @@
   
   <div class="form-group row">
   	<div class="col-sm-4">
-  			<a textsize="10px" class="clickable" href=""> Forgot Password</a>
+  			<a textsize="10px" class="clickable" href="">Rest</a>
   	</div>
-  	<div class ="col-sm-8">
-  		<input class="btn btn-primary pull-right" type="submit" value="Submit">
+  	<div class ="col-sm-4">
+  		<input class="btn btn-primary pull-right" type="submit" value="Sign in">
+  	</div>
+  	<div class ="col-sm-4">
+  		<input class="btn btn-primary pull-right" type="submit" value="Sign Up" action="">
   	</div>
   </div>
 </form>
 </div>
 </div>
-
+</div>
 
 
 </body>
