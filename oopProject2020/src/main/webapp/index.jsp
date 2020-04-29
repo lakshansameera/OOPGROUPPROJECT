@@ -35,7 +35,7 @@
   
   <div class="form-group row">
   	<div class="col-sm-4">
-  			<a textsize="10px" class="clickable" href="">Rest</a>
+  			<a class="clickable" href="">Rest</a>
   	</div>
   	<div class ="col-sm-4">
   		<input class="btn btn-primary pull-right" type="submit" value="Sign in">
