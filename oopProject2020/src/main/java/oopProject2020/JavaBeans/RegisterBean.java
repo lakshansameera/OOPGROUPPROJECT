@@ -1,19 +1,22 @@
 package oopProject2020.JavaBeans;
 
+import oopProject2020.Models.uswerDatabase;
+
 public class RegisterBean {
 
 	private String username;
 	private String email;
 	private String password;
 	private String studentnumber;
+	uswerDatabase db = new uswerDatabase();
 	
 	
-	public RegisterBean(String username, String email, String password, String studentnumber) {
+	public RegisterBean(String username, String email, String password) {
 		super();
 		this.username = username;
 		this.email = email;
 		this.password = password;
-		this.studentnumber = studentnumber;
+
 	}
 	
 	public String getUsername() {
@@ -40,6 +43,10 @@ public class RegisterBean {
 	public void setStudentnumber(String studentnumber) {
 		this.studentnumber = studentnumber;
 	}
-	
-		
+	public int registerUser()
+	{
+		db.insertData("Insert in to (userName,password,userType,status) values ('"+ getUsername()+"','"+ getPassword()+"','"+ 0+"','"+ 1+"',)");
+		return 0;
+	}
+
 }
