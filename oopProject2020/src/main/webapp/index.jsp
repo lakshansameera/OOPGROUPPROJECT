@@ -10,16 +10,7 @@
 
 <body>
 
-
-
-<div class="row mb-3">
-
-<div class="col-sm-6"></div>
-
-<div class="col-sm-6" class="jumbotron">
-<div class="jumbotron">
-<h5>Log in</h5>
-<form action="" method="Post" >
+<form action="Login" method="Post" >
   <div class="form-group row">
     <label for="staticEmail" class="col-sm-4 col-form-label">Email</label>
     <div class="col-sm-8">
@@ -41,13 +32,12 @@
   		<input class="btn btn-primary pull-right" type="submit" value="Sign in">
   	</div>
   	<div class ="col-sm-4">
-  		<input class="btn btn-primary pull-right" type="submit" value="Sign Up" action="">
+  		<input class="btn btn-primary pull-right" type="submit" value="Sign Up">
   	</div>
   </div>
 </form>
-</div>
-</div>
-</div>
+
+
 
 
 </body>

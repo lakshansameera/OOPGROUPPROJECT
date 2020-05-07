@@ -4,13 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Student Registration</title>
+<title>Insert title here</title>
 </head>
 <body>
-<div>
-<!--! username, pasword , name , email, address, Student Number , contactNumber, Pickup Point, End point!-->
-</div>
-
-
+<h1>Add Vehicle</h1>
 </body>
 </html>
