@@ -57,7 +57,7 @@ public class Register extends HttpServlet {
 		break;
 		}
 		user us = new user(name,email,address,contactNumber,RejNo,type);
-
+		us.insertUser();
 	}
 
 }
