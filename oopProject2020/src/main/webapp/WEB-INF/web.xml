@@ -16,12 +16,21 @@
   	<description></description>
   	<servlet-class>oopProject2020.Controls.Login</servlet-class>
   </servlet>
-  <servlet-mapping>
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>oopProject2020.Controls.Register</servlet-class>
+  </servlet>  <servlet-mapping>
   	<servlet-name>Register</servlet-name>
   	<url-pattern>/Register</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
   	<servlet-name>Login</servlet-name>
   	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
   </servlet-mapping>
 </web-app>
