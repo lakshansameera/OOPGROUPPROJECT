@@ -13,20 +13,20 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Add Vehicle</h1>
+<h3 class="col-sm-4">Add Vehicle</h3>
 	
-<form action="" class="col-sm-4">
+<form action="../AddVehicle" method="post" class="col-sm-6">
   <div class="form-group" >
     <label for="formGroupExampleInput">Registration Number</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input Vehicle Registration No" name="rejNo">
   </div>
   <div class="form-group">
     <label for="formGroupExampleInput2">Vehicle Type</label>
-  	<select class="custom-select">
+  	<select class="custom-select" name="vehicleType">
   		<option selected>Open this select menu</option>
-  		<option value="Motor Car">One</option>
-  		<option value="Motor Van">Two</option>
-  		<option value="Motor Coach">Three</option>
+  		<option value="Motor Car">Motor Car</option>
+  		<option value="Motor Van">Motor Van</option>
+  		<option value="Motor Coach">Motor Coach</option>
 	</select>
   </div>
    <div class="form-group">
