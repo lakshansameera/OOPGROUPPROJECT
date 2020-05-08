@@ -19,6 +19,9 @@ public class user {
 	public int userType;
 	public int userStatus;
 	
+	public user() {
+		super();
+	}
 
 	public user(String name, String email, String address, String contactNumber, String regNo, int userType) {
 		super();
